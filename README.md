@@ -2,6 +2,9 @@
 
 A [Publish](https://github.com/johnsundell/publish) plugin that generates a syntax code css styles for you [Splash Plugin](https://github.com/johnsundell/splashpublishplugin) from Xcode Color Theme.
 
+[![Swift 5.1](https://img.shields.io/badge/Swift-5.1-orange.svg?style=flat)](https://swift.org/)
+[![Publish](https://img.shields.io/badge/Publish-blue.svg?style=flat)](https://github.com/johnsundell/publish)
+
 ## Install
 
 To install it into your [Publish](https://github.com/johnsundell/publish) package, add it as a dependency within your `Package.swift` manifest:
@@ -88,7 +91,7 @@ Also plugin can generate css to dark scheme, just use `CodeTheme.dynamic(light: 
 
 # Features
 
-[ ] intellij theme
-[ ] VSCode
+- [ ] intellij theme
+- [ ] VSCode
 
 Thank you and enjoy 💯
