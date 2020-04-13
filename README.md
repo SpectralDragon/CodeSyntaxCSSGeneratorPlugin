@@ -1,4 +1,4 @@
-# CodeSyntaxCSSGenerator
+# CodeSyntaxCSSGeneratorPlugin
 
 A [Publish](https://github.com/johnsundell/publish) plugin that generates a syntax code css styles for you [Splash Plugin](https://github.com/johnsundell/splashpublishplugin) from Xcode Color Theme.
 
@@ -20,7 +20,7 @@ let package = Package(
             ...
             dependencies: [
                 ...
-                "CodeSyntaxCSSGenerator"
+                "CodeSyntaxCSSGeneratorPlugin"
             ]
         )
     ]
@@ -36,7 +36,7 @@ Move `dvtcolortheme` or `xccolortheme` file to Resource dirictory and intall the
 
 // My xcode theme `Light.dvtcolortheme`
 
-import CodeSyntaxCSSGenerator
+import CodeSyntaxCSSGeneratorPlugin
 
 Site().publish(using: [
     .installPlugin(
