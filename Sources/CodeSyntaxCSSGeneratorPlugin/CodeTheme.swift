@@ -6,6 +6,7 @@ import Publish
 
 // An object that has information about theme.
 public enum CodeTheme {
+    
     // Path to `xccolortheme` or `dvtcolortheme`
     case xcode(_ path: Path)
     

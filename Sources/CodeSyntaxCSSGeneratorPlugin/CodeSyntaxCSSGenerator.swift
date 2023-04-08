@@ -13,7 +13,6 @@ public extension Plugin {
         theme: CodeTheme
     ) -> Self {
         Plugin(name: "CodeSyntaxCSSGenerator", installer: { context in
-            
             if let folder = try? context.folder(at: resourcePath) {
                 
                 let colors = try theme.colors(resourceFolder: folder)
